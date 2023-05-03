@@ -5,11 +5,9 @@ import com.poyrazm.mongodbspring.entity.Book;
 import com.poyrazm.mongodbspring.repository.IBookRepository;
 import com.poyrazm.mongodbspring.service.services.IBookServices;
 import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service
 @RequiredArgsConstructor
 public class BookServiceImpl implements IBookServices {
 
