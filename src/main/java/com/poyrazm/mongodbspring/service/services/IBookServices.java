@@ -1,4 +1,4 @@
-package com.poyrazm.mongodbspring.service.interfaces;
+package com.poyrazm.mongodbspring.service.services;
 
 import com.poyrazm.mongodbspring.dto.BookRequest;
 import com.poyrazm.mongodbspring.entity.Book;

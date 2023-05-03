@@ -2,7 +2,7 @@ package com.poyrazm.mongodbspring.controller;
 
 import com.poyrazm.mongodbspring.dto.BookRequest;
 import com.poyrazm.mongodbspring.entity.Book;
-import com.poyrazm.mongodbspring.service.interfaces.IBookServices;
+import com.poyrazm.mongodbspring.service.services.IBookServices;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

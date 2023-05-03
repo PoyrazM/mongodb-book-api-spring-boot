@@ -3,7 +3,7 @@ package com.poyrazm.mongodbspring.service.impl;
 import com.poyrazm.mongodbspring.dto.BookRequest;
 import com.poyrazm.mongodbspring.entity.Book;
 import com.poyrazm.mongodbspring.repository.IBookRepository;
-import com.poyrazm.mongodbspring.service.interfaces.IBookServices;
+import com.poyrazm.mongodbspring.service.services.IBookServices;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import java.util.List;
